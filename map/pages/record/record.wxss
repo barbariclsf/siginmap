@@ -1,0 +1,43 @@
+.table {
+  margin-top: 0%;
+  border: 0px solid darkgray;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+}
+
+.td {
+  width: 40%;
+  height: 100rpx;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-w {
+  background: snow;
+}
+
+.bg-g {
+  height: 180rpx;
+  background: #e6f3f9;
+}
+
+.bg-d {
+  height: 180rpx;
+  background: rgb(250, 255, 255);
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  background: rgba(51, 102, 255, 0.815);
+  color: #fff;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}

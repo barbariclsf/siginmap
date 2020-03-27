@@ -1,0 +1,8 @@
+
+  <view class="viewclass">
+    <image class="jxlogo" src="../images/7.jpg"></image>
+    <text class="timetext">{{time}}</text>
+    <button class='btn1' hover-class="hover" bindtap="daka">
+      <text>{{qiandao}}</text>
+    </button>
+  </view>

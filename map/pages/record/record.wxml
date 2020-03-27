@@ -1,0 +1,19 @@
+<view class="table">
+ <view class="tr bg-w">
+ <view class="th">序号</view>
+ <view class="th">签到地点</view>
+ <view class="th ">签到时间</view>
+ </view>
+ <block wx:for="{{list}}" wx:key="{[code]}">
+ <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+  <view class="td">{{item.id}}</view>
+  <view class="td">{{item.site}}</view>
+  <view class="td">{{item.date}}</view>
+ </view>
+ <view class="tr bg-d" wx:else>
+  <view class="td">{{item.id}}</view>
+  <view class="td">{{item.site}}</view>
+  <view class="td">{{item.date}}</view>
+ </view>
+ </block>
+</view>

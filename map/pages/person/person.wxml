@@ -1,0 +1,35 @@
+<!--person.wxml-->
+<view class="content">
+
+  <view class="userInfo">
+    <image class='user-head' src='../images/avatar.png'/>
+    <view class='user-name'>{{username}}</view>
+  </view>
+  <view class="qiandao">
+  <view class="userview">
+    <image  class="user" src="../images/username.png"></image>
+    <text class="usermessage" bindtap="message">账户信息</text>
+    <image class="left" src="../images/arrow.png"></image>
+  </view>
+  <view class="userview">
+    <image  class="user" src="../images/icon_24.png"></image>
+    <text class="usermessage" bindtap="record">签到记录</text>
+    <image class="left" src="../images/arrow.png"></image>
+  </view>
+  <view class="userview">
+    <image  class="user" src="../images/cm2_btm_icn_friend.png"></image>
+    <text class="usermessage" bindtap="aboutme">关于我们</text>
+    <image class="left" src="../images/arrow.png"></image>
+  </view>
+  <view class="userview">
+    <image  class="user" src="../images/life-s.png"></image>
+    <text class="usermessage" bindtap="logout">退出登录</text>
+    <image class="left" src="../images/arrow.png"></image>
+  </view>
+  </view>
+</view>
+
+
+
+
+

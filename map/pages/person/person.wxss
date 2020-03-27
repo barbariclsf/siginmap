@@ -1,0 +1,79 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.log-item {
+  margin: 10rpx;
+}
+
+/* .content {
+  text-align: center;
+} */
+
+.userInfo {
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12rpx;
+  background: #1b82d1;
+}
+
+.qiandao {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo .user-head {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+}
+
+.userInfo .user-name {
+  margin: 11rpx 0;
+  font-size: 36rpx;
+  color: #333;
+}
+
+.userInfo .user-phone {
+  color: #666;
+  font-size: 24rpx;
+}
+
+.userview {
+  height: 80rpx;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.user {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.usermessage {
+  text-align: center;
+  font-size: 40rpx;
+  color: #4d8ad7;
+  margin-top: 0rpx;
+}
+
+.layout-btn {
+  height: 100rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  color: #4d8ad7;
+}
+
+.left {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 0;
+  margin-top: 10rpx;
+}

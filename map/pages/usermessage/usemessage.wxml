@@ -1,0 +1,30 @@
+<!--pages/card/card.wxml-->
+<view class='container'>
+  <view>
+    <view class='card'>
+      <image src='../images/card.jpg' class='bg'></image>
+      <view class='info1'>
+        <view class='left'>
+          <image src='../images/avatar.png' class='avatar'></image>
+        </view>
+        <view class='right'>
+          <view>
+            <text class='name'>{{username}}</text>
+            <text class='job'>学生</text>
+          </view>
+
+        </view>
+      </view>
+      <view class='info2'>
+        <text class='item'>学校：{{school}}</text>
+        <text class='item'>院系：{{yuan}}</text>
+        <text class='item'>专业班级：{{sclass}}</text> 
+        <text class="item">学号：{{number}}</text>
+      </view>
+    </view>
+
+
+  </view>
+
+
+</view>

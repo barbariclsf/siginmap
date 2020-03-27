@@ -1,0 +1,4 @@
+/* pages/aboutme/aboutme.wxss */
+.text{
+   color:#2397f2
+}

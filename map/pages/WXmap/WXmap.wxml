@@ -1,0 +1,53 @@
+<!--地图页-->
+<view class="container">
+  <!-- 地图显示开始 -->
+  <map
+    class="map" 
+    id="map" 
+    longitude="{{longitude}}" 
+    latitude="{{latitude}}" 
+    scale="{{scale}}"
+    markers="{{markers}}"
+    show-location="true" 
+    bindmarkertap="markertap" 
+    bindregionchange="regionchange">
+
+    <!-- 中心点标记点 -->
+    <cover-view  class="center">
+      <cover-image style="" src="../images/marker.png"></cover-image>
+    </cover-view>
+
+ 
+ 
+    <!-- 将地图中心移动到当前定位点 -->
+    <cover-view class="location" bindtap="toPosition">
+      <cover-image style="" src="../images/new_pos.png"></cover-image>
+    </cover-view>
+
+    <!-- 展示详细地址 -->
+    <cover-view class="address">
+      <cover-image style="width: 40px;height: 40px;" src="../images/marker.png"></cover-image>
+      <cover-view class="address-desc" bindtap="clickDaohang" 
+        data-title="{{title}}" 
+        data-address="{{address}}"
+        data-longitude="{{movedlng}}" 
+        data-latitude="{{movedlat}}">
+        <cover-view class="blur">{{title}}</cover-view>
+        <cover-view class="detailed">{{address}}</cover-view> 
+      </cover-view>
+      <cover-view class="address-btn" bindtap="clockInOut" 
+        data-title="{{title}}" 
+        data-address="{{address}}" 
+        data-clocklat="{{movedlat}}" 
+        data-clocklng="{{movedlng}}" >
+        打卡
+      </cover-view>
+    </cover-view>
+
+    <!-- 个人中心图标 -->
+
+  </map>
+  <!-- 地图显示结束 -->
+</view>
+
+
